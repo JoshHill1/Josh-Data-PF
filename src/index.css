@@ -21,7 +21,7 @@
 
 :root {
   --primary-color: #E5E5E5;
-  --secondary-color: #747bff;
+  --secondary-color: #4545ff;
 }
 
 body {
@@ -31,10 +31,11 @@ body {
 
 
 
-/* @media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --primary-color: #1a1a1a;
+    --secondary-color: #d47a13;
+    --secondary-color: #4545ff;
   }
   a:hover {
     color: #747bff;

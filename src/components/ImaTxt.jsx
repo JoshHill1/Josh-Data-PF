@@ -7,7 +7,7 @@ function ImaTxt() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['\&nbsp;Developer', 'n\&nbsp;AI Enthusiast', '\&nbsp;Cyclist', '\&nbsp;Digital Artist'],
+      strings: ['\&nbsp;Developer', 'n\&nbsp;AI Enthusiast', '\&nbsp;Prompt Engineer', '\&nbsp;Digital Artist'],
       typeSpeed: 100,
       backSpeed: 57,
       backDelay: 1000,

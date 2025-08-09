@@ -26,7 +26,6 @@
 .footer-container a {
   text-decoration: none;
   color: var(--primary-color);
-  width: fit-content;
 }
 .footer-text a:hover {
   text-decoration: underline;
@@ -39,11 +38,9 @@
 
 /* space the text below headers evenly */
 .footer-navigation a, .footer-contact a, .footer-contact p, .footer-contact .email-container {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
 }
-
-
-
 
 /*  */
 
@@ -51,7 +48,6 @@
   position: relative;
   display: inline-block;
   cursor: pointer;
-  width: fit-content;  
 }
 
 .email-text {
@@ -60,7 +56,6 @@
 }
 .email-text:hover {
   color: #FFF;
-
 }
 
 .email-copy {
@@ -88,7 +83,6 @@
 .email-copy.copied {
   background-color: green;
 }
-
 
 /*  */
 

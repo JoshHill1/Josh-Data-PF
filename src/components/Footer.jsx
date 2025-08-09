@@ -71,7 +71,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-text footer-copyright">
-        <p>Made with l<span className="heart">❤</span>ve by Joshua Hill. | Copyright 2024</p>
+        <p>Made with l<span className="heart">❤</span>ve by Joshua Hill. | Copyright 2025</p>
       </div>
     </div>
   )

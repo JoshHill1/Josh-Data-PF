@@ -45,7 +45,6 @@ function Footer() {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/blogs">Blogs</Link>
         </div>
 
         <div className="footer-text footer-contact">

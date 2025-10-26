@@ -37,7 +37,7 @@ function Footer() {
       <div className='footer-grid'>
         <div className="footer-text">
           <h2>About me</h2>
-          <p>A growing Data Analyst with a focus on data visualization. Before that, I was a gaphic designer with a keen eye to detail.</p>
+          <p>A growing Data Analyst with a focus on data visualization. Before that, I was &#40;and still am&#41; a gaphic designer with a keen eye to detail.</p>
         </div>
 
         <div className="footer-text footer-navigation">

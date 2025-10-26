@@ -7,7 +7,7 @@
 .footer-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr 1fr;
-  gap: 5px;
+  gap: 10px;
 }
 
 .footer-text {
@@ -32,12 +32,19 @@
   color: #FFF;
 }
 
+.footer-navigation {
+  width: fit-content;
+}
+.footer-navigation a {
+  margin-bottom: 10px;
+}
+
 .footer-contact p:hover {
   color: #FFF;
 }
 
 /* space the text below headers evenly */
-.footer-navigation a, .footer-contact a, .footer-contact p, .footer-contact .email-container {
+.footer-contact a, .footer-contact p, .footer-contact .email-container {
   margin-bottom: 10px;
   width: fit-content;
 }

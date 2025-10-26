@@ -3,7 +3,8 @@ import "../index.css";
 import ImAText from "../components/ImaTxt.jsx"
 import JHeadshot from '../assets/images/JHeadshot.png'
 import 'boxicons'
-// import HAbout from "../components/HAbout.jsx";
+import HAbXPRec from "../components/HAbXPRec.jsx";
+import HProjects from "../components/HProjects.jsx";
 
 import { Link } from 'react-router-dom'
 
@@ -22,8 +23,8 @@ function Home() {
             </p>
             {/* <p className='outfit-font'>
               With a growing passion for AI, I've transitioned from front-end design into deepening my understanding of how important data is and how it powers the world. I'm drawn towards data visualization and the impact it has on decision-making. I want to help build systems that transform data into real insights. As AI continues to evolve, I'm excited to grow alongside it, using it to my advantage in this evolving AI-age. 
-            </p> */}
-            {/* <p className='outfit-font'>
+            </p>
+            <p className='outfit-font'>
               I have a background in front-end design, my passion for AI has evolved to focus on data driven descisions and understand the impact it has. I've gained knowledge of getting information and developing insights to help make informed decisions. I'm eager to help build systems that transform data into real insights. As AI continues to evolve, I'm excited to grow alongside it, using it to my advantage in this evolving AI-age. 
             </p> */}
             <Link to="/projects" className='my-work-btn'>View My Work</Link>
@@ -56,7 +57,8 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <HAbout /> */}
+      <HAbXPRec />
+      {/* <HProjects /> */}
     </div>
     
   );

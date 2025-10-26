@@ -1,10 +1,10 @@
 .projects-page {
-  padding: 2rem;
-  text-align: center;
+  padding: 2rem 7rem;
 }
 
 .projects-heading {
-  font-size: 1.2rem;
+  text-align: center;
+  /* font-size: 1.2rem; */
   margin-bottom: 2rem;
 }
 
@@ -13,34 +13,53 @@
   padding: 0.4rem 0.8rem;
   background: none;
   border: none;
-  color: var(--secondary-color, #555);
   font-weight: bold;
   cursor: pointer;
-  transition: color 0.3s;
 }
 
-.filter-btn:hover {
-  color: var(--primary-color, #000);
+/* Assign a different color to each button based on order */
+.projects-heading .filter-btn {
+	color: #fff;
+	border-radius: 4px;
+	opacity: 0.49;
+	transition: 0.25s ease;
+}
+.projects-heading .filter-btn.active {
+	opacity: 0.93;
+}
+.projects-heading .filter-btn:hover {
+	opacity: 1;
 }
 
-.filter-btn.active {
-  color: var(--primary-color, #000);
-  text-decoration: underline;
+.projects-heading .filter-btn:nth-child(1) { 
+	background-color: #555; 
+} 
+.projects-heading .filter-btn:nth-child(2) { 
+	background-color: #4545ff; 
 }
+.projects-heading .filter-btn:nth-child(3) { 
+	background-color: #28a72c; 
+}
+.projects-heading .filter-btn:nth-child(4) { 
+	background-color: #d96518; 
+}
+
+
 
 .projects-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project-card {
   text-decoration: none;
   color: inherit;
   border: 1px solid #ddd;
-  border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -50,6 +69,14 @@
 
 .project-thumbnail {
   width: 100%;
-  height: auto;
+  height: 280px; 
+  object-fit: cover; 
   display: block;
 }
+
+.project-card h3 {
+  padding: 0.8rem;
+  font-size: 1rem;
+  flex: 1; /* pushes text to bottom if needed */
+}
+
